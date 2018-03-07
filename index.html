@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- SEO -->
+    <title>Introdução ao desenvolvimento web</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i%7CMaitree:200,300,400,600,700&amp;subset=latin-ext" rel="stylesheet">
+
+    <!-- CSS WebSlides -->
+    <link rel="stylesheet" type='text/css' media='all' href="static/css/webslides.css">
+
+    <!-- Optional - CSS SVG Icons (Font Awesome) -->
+    <link rel="stylesheet" type='text/css' media='all' href="static/css/svg-icons.css">
+  </head>
+  <body>
+    <header role="banner">
+      <nav role="navigation">
+        <p class="logo"><a href="index.html" title="WebSlides">WebSlides</a></p>
+        <ul>
+          <li class="github">
+              <a rel="external" href="https://github.com/ferreirabdiego" title="Github">
+              <svg class="fa-github">
+                <use xlink:href="#fa-github"></use>
+              </svg>
+              <em>Github</em>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main role="main">
+      <article id="webslides" class="">
+        <section>
+         <span class="background" style="background-image:url('static/images/pexels-photo.jpg')"></span>
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap size-50 aligncenter">
+            <h1 class="bg-white">
+              <strong>Desenvolvimento Web</strong><br>
+              <small class="text-intro">Uma breve introdução ao mundo do desenvolvimento web</small>
+            </h1>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+        <section>
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap size-80 aligncenter">
+            <h2><strong>O que é a web?</strong></h2>
+            <p class="text-intro">
+              Web é um termo utilizado para referenciar um sistemas de arquivos dispostos na internet que podem ser acessados de maneira visual ou não, através de uma url ou um endereço ip.
+            </p>
+            <!-- .end .bg-white shadow -->
+          </div>
+          <!-- .end .wrap -->
+        </section>
+        <section>
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap">
+            <div class="grid vertical-align">
+              <div class="column">
+                <h3><strong>Do que é feita a web?</strong></h3>
+                <p class="text-intro">Basicamente a web é feita por trocas de arquivos entre um <code>servidor</code> e um <code>cliente</code> através de requisições e protocolos</p>
+                <div class="bg-white shadow">
+                  <ul class="flexblock reasons">
+                    <li>
+                      <h2>Server-side</h2>
+                      <p>Recebe os dados enviados pelo cliente e retorna um arquivo contendo as informações solicitadas</p>
+                    </li>
+                    <li>
+                      <h2>Client-side</h2>
+                      <p>É responsável por coletar as entradas de dados do usuário, enviar ao servidor e renderizar as informações que retornam do servidor.</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!-- .end .column -->
+              <div class="column">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/QSEDr2e1gSQ" frameborder="0" allow="autoplay; encrypted-media"
+                  allowfullscreen></iframe>
+              </div>
+              <!-- .end .column -->
+            </div>
+            <!-- .end .grid -->
+          </div>
+          <!-- .end .wrap -->
+        </section>
+        <section>
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap aligncenter size-70">
+            <h3><strong>Server-side: Nos bastidores da aplicação...</strong></h3>
+            <p class="text-intro">É a parte da aplicação web que roda no servidor. Serve para criar arquivos, armazenar dados que podem ser consultados em qualquer lugar, etc.</p>
+            <h4 style="padding-bottom: 30px">
+              <strong>Linguagens</strong>
+            </h4>           
+            <ul class="flexblock features aligncenter">
+              <li>
+                <h3>PHP</h3>
+                <small>O PHP é uma linguagem de script open source de uso geral, muito utilizada, e especialmente adequada para o desenvolvimento web.</small>
+              </li>
+              <li>
+                <h3>ASP.NET</h3>
+                <small>O ASP.NET é baseado no Framework .NET, as aplicações para essa plataforma podem ser escritas em várias linguagens, como C#, F# e Visual Basic.NET.</small>
+              </li>
+              <li>
+                <h3>Java</h3>
+                <small>Java é uma linguagem de programação desenvolvida na década de 90. Java não é compilado para código nativo, é transformado em um bytecode que é interpretado por uma máquina virtual</small>
+              </li>
+              <li>
+                <h3>Python</h3>
+                <small>é uma linguagem que foi criada para produzir código bom e fácil de manter de maneira rápida.</small>
+              </li>
+              <li>
+                <h3>SQL</h3>
+                <small>É uma linguagem padrão de gerenciamento de dados que interage com os principais bancos de dados baseados no modelo relacional.</small>
+              </li>
+              <li>
+                <h3>Outras</h3>
+                <small>Existem varias outras linguagens de servidor... Ex: Ruby, Shell, Go, JavaScript (Node.js), etc</small>
+              </li>
+            </ul>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+        <section>
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap aligncenter size-70">
+            <h3><strong>Client-side: Bem mais do que se pode ver...</strong></h3>
+            <p class="text-intro">É a parte da aplicação web que roda diretamente no browser do usuário. Serve para coletar entradas do usuário, validar dados, criar interações, etc.</p>
+            <h4 style="padding-bottom: 30px">
+              <strong>Linguagens</strong>
+            </h4>            
+            <ul class="flexblock features aligncenter">
+              <li>
+                <h3>HTML</h3>
+                <p>(HyperText Markup Language, que significa Linguagem de Marcação de Hipertexto) é uma <strike>linguagem de programação</strike> linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores.</p>
+              </li>
+              <li>
+                <h3>CSS</h3>
+                <p>O Cascading Style Sheets (CSS) é uma "folha de estilo" composta por “camadas” e utilizada para definir a apresentação (aparência) em páginas da internet que adotam para o seu desenvolvimento linguagens de marcação (como XML, HTML e XHTML).</p>
+              </li>
+              <li>
+                <h3>JavaScript</h3>
+                <p>JavaScript não é Java... Sabendo disso, quero que saiba que JavaScript é uma linguagem de programação <strike>client-side</strike>. No client-side ela é utilizada para controlar o HTML e o CSS para manipular comportamentos na página.</p>
+              </li>
+            </ul>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+        <section>
+          <div class="wrap">
+            <h2>Protocolos de Rede</h2>
+            <p class="text-intro">Os protocolos são desenvolvidos por algoritmos, instruções bem definidas para executar uma tarefa. Os protocolos são utilizados em duas ou mais máquinas em rede, para se comunicarem. Existem vários protocolos no mundo inteiro, ao quais podem oferecer diversos serviços em uma comunicação de computadores.</p>
+            <p class="text-intro">E o que são serviços de rede? São os serviços oferecidos em uma rede de computadores. Tais serviços podem ser oferecidos por diversos protocolos. Quando estamos fazendo um download de um arquivo pela internet, estamos utilizando um serviço de rede, normalmente proporcionado pelo protocolo File Transfer Protocol, que significa “Protocolo de Transferência de Arquivos”, mais conhecido como FTP.</p>
+          </div>
+        </section>
+        <section>
+          <div class="wrap">
+            <h2>Protocolo HTTP</h2>
+            <p class="text-intro">O Hypertext Transfer Protocol, sigla HTTP (em português Protocolo de Transferência de Hipertexto) é um protocolo de comunicação (na camada de aplicação segundo o Modelo OSI) utilizado para sistemas de informação de hipermídia, distribuídos e colaborativos. Ele é a base para a comunicação de dados da World Wide Web.</p>
+          </div>
+        </section>
+        <section>
+          <div class="wrap">
+            <h2>Métodos de Solicitação (HTTP)</h2>
+            <p class="text-intro">Uma solicitação HTTP, ou HTTP Request é uma maneira do navegador mostrar uma página da internet utilizando um dos oito métodos de solicitação do protocolo HTTP.</p>
+            <ul class="flexblock features">
+              <li>
+                <div>
+                  <h2>
+                    GET
+                  </h2>
+                  O método GET requisita uma representação do recurso especificado. Requisições usando GET devem apenas recuperar dados e não devem ter qualquer outro efeito.
+                </div>
+              </li>
+              <li>
+                <div>
+                  <h2>
+                    POST
+                  </h2>
+                  Envia dados para serem processados (por exemplo, dados de um formulário HTML) para o recurso especificado. Os dados são incluídos no corpo do comando. Sua utilização em uma requisição ocorre quando é necessário enviar dados ao servidor para serem processados.
+                </div>
+              </li>
+              <li>
+                <div>
+                  <h2>
+                    Outros
+                  </h2>
+                  Existem diversos outros tipos de requisição com outras regras que nós não detalharemos neste momento. (Ex: HEAD, PUT, DELETE, TRACE, OPTIONS e CONNECT)
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section>
+          <div class="wrap">
+            <h2>Status de Respostas</h2>
+            <p class="text-intro">A linha inicial de uma resposta HTTP indica ao cliente se sua requisição foi bem sucedida ou não. Essa situação é fornecida através de um código de retorno (Status-Code) e uma frase explicativa (Reason-Phrase). O código de status é formado por três dígitos e o primeiro dígito representa a classe que pertence classificada em cinco tipos: </p>
+            <ul>
+              <li>1xx: Informational (Informação) – utilizada para enviar informações para o cliente de que sua requisição foi recebida e está sendo processada;</li>
+              <li>2xx: Success (Sucesso) – indica que a requisição do cliente foi bem sucedida;</li>
+              <li>3xx: Redirection (Redirecionamento) – informa a ação adicional que deve ser tomada para completar a requisição;</li>
+              <li>4xx: Client Error (Erro no cliente) – avisa que o cliente fez uma requisição que não pode ser atendida;</li>
+              <li>5xx: Server Error (Erro no servidor) – ocorreu um erro no servidor ao cumprir uma requisição válida.</li>
+            </ul>
+          </div>
+        </section>
+        <section>
+          <div class="wrap">
+            <h2>Conteúdo</h2>
+            <p class="text-intro">O cabeçalho Content-Type é utilizado para indicar o tipo de arquivo do recurso.</p>
+  
+            <p class="text-intro">Em respostas, o Content-Type diz para o client qual é o tipo de conteúdo que a resposta, de fato, tem. Alguns browsers vão realizar o chamado "MIME Sniffing" em alguns casos e não vão, necessariamente, seguir o valor declarado por este cabeçalho. Para previnir este comportamento é possível definir o cabeçalho X-Content-Type-Options para o valor nosniff.</p>
+          </div>
+        </section>
+        <section>
+          <div class="wrap">
+            <h2>Conteúdos Comuns</h2>
+            <ul class="flexblock features">
+              <li>
+                  <h2>
+                    HTML
+                  </h2>
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="pt-br"&gt;
+  &lt;head&gt;
+    &lt;title&gt;Título da página&lt;/title&gt;
+    &lt;meta charset="utf-8"&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    Aqui vai o código HTML que fará seu site aparecer.
+  &lt;/body&gt;
+&lt;/html&gt;
+</pre>
+              </li>
+              <li>
+                  <h2>
+                    XML
+                  </h2>
+<pre>
+&lt;?xml version="1.0"?&gt;
+&lt;soap:Envelope xmlns:soap="http://www.w3.org/2001/12/soap- envelope" soap:encodingStyle="http://www.w3.org/2001/12/soap-encoding" xmlns:tiposns="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;soap:Body&gt;
+    &lt;m:retornaNomeResponse xmlns:m="http://www.dre.ufrj.br/ws/dre"&gt;
+      &lt;nome type="tiposns:string"&gt;Leonardo Bentes Armt&lt;/nome&gt;
+    &lt;/m:retornaNomeResponse&gt;
+  &lt;/soap:Body&gt;
+&lt;/soap:Envelope&gt;
+</pre>
+              </li>
+              <li>
+                  <h2>
+                    JSON
+                  </h2>
+<pre>
+{
+  “titulo”: “JSON,
+  “ano”: 2012,
+  “genero”: [
+    “aventura”,
+    “ação”,
+    “ficção”
+  ]	
+}
+</pre>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </article>
+      <!-- end article -->
+    </main>
+    <!-- end main -->
+
+   <!-- A global footer
+
+     <footer role="contentinfo">
+      <div class="wrap">
+        <p>An <a href="https://github.com/webslides/webslides">open source solution</a>, by <a href="https://twitter.com/webslides">@webslides</a>.</p>
+      </div>
+    </footer>  -->
+
+    <!-- Required -->
+    <script src="static/js/webslides.js"></script>
+    <script>
+      window.ws = new WebSlides();
+    </script>
+
+    <!-- OPTIONAL - svg-icons.js (fontastic.me - Font Awesome as svg icons) -->
+    <script defer src="static/js/svg-icons.js"></script>
+
+  </body>
+</html>
