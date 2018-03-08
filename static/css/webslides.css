@@ -1325,7 +1325,7 @@ header[role='banner'] {
 .logo {
   text-transform: lowercase; }
   .logo a {
-    background: url("../images/logos/logo.svg") no-repeat 0 0;
+    background: url("http://diegoborgs.com.br/assets/logo-db-06.png") no-repeat 0 0;
     background-size: 4.8rem;
     float: left;
     height: 4.8rem;
@@ -3307,7 +3307,7 @@ h1 span {
 Header/Nav
 =========================================== */
 header[role='banner'] {
-  background-color: #fff; }
+  background-color: #444; }
 
 .logo a {
   color: inherit; }
@@ -3317,7 +3317,7 @@ nav[role='navigation'] li.active a {
   color: #fff; }
 
 nav[role='navigation'] li a {
-  background-color: rgba(50, 50, 50, 0.9);
+  background-color: transparent;
   color: #fff; }
   nav[role='navigation'] li a:hover {
     background-color: rgba(50, 50, 50, 0.7); }
@@ -3335,7 +3335,7 @@ nav li.dribbble a:hover {
   background-color: #ea4c89; }
 
 nav li.github a:hover {
-  background-color: #60b044; }
+  background-color: #dd4b39; }
 
 nav li.email a:hover {
   background-color: #dd4b39; }
